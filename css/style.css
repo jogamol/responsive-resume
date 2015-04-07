@@ -209,6 +209,18 @@ a:hover {
   margin-top: -100px;
 }
 
+.footer {
+  background-color: #707070  ;
+  text-align: center;
+}
+.footer p {
+  color: #b6d5be;
+  line-height: 1.666666666666667;
+  margin: 25px 0;
+}
+
+
+
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -249,5 +261,4 @@ opacity: 1; padding-top: 90px;
 }
   
     
-
 }
