@@ -209,6 +209,82 @@ a:hover {
   margin-top: -100px;
 }
 
+/*----------------------About Me-------------*/
+
+
+#about{
+
+text-align: center;
+padding: 100px 0;
+-webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
+-moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
+box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);    
+}
+
+#about h1{
+margin: 0 0 40px 0;
+color: #579f6a;    
+
+}
+
+
+#about .round-outline .round-photo-anchor .round-caption-bg {
+  background-color: rgba(0, 0, 255, 0.59);
+  height: 90%;
+  width: 90%;
+  margin: 5%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  transition-delay: 0.2s;
+  -webkit-transition-delay: 0.2s;
+}
+
+  
+
+#about .round-outline .round-photo-anchor img {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+.round-outline {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 2px solid #fff;
+  display: inline-block;
+    
+}
+.round-outline .round-photo {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin: 4px;
+   
+}
+
+
+
+
+
+/*----------------------Footer---------------*/
 .footer {
   background-color: #707070  ;
   text-align: center;
@@ -218,6 +294,50 @@ a:hover {
   line-height: 1.666666666666667;
   margin: 25px 0;
 }
+
+
+.cbp-so-scroller {
+  overflow: hidden;
+}
+
+.cbp-so-section:before,
+.cbp-so-section:after {
+  content: " ";
+  display: table;
+}
+.cbp-so-section:after {
+  clear: both;
+}
+
+.cbp-so-side {
+      overflow: hidden;
+      min-height: 12em;
+      -webkit-transition: -webkit-transform 1s, opacity 0.75s;
+      -moz-transition: -moz-transform 1s, opacity 0.75s;
+      transition: transform 1s, opacity 0.75s;
+    }
+
+.cbp-so-side:before,
+.cbp-so-side:after {
+  content: " ";
+  display: table;
+}
+.cbp-so-side:after {
+  clear: both;
+}
+.cbp-so-side-bottom {
+  text-align: inherit;
+}
+.cbp-so-side-top {
+  text-align: inherit;
+}
+
+
+
+
+
+
+
 
 
 
@@ -243,8 +363,23 @@ a:hover {
     -moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0);
     box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0);
   }
+    
+ #about .round-outline {
+    height: 164px;
+    width: 164px;
+  }
+  #about .round-outline .round-photo-anchor img {
+    margin: 4px;
+  }    
   
 }
+
+
+
+
+
+
+
 
 @media (min-width: 1200px) {
 

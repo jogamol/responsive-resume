@@ -5,7 +5,7 @@ new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
 
 jQuery(document).ready(function() {
 
-
+    
 
 	function pde(e){
 		if(e.preventDefault)
@@ -22,9 +22,6 @@ jQuery(document).ready(function() {
 			});
 		});
 	});
-
-
-	
 
 
 });
