@@ -227,7 +227,30 @@ color: #579f6a;
 
 }
 
-
+#about .round-outline {
+  border: 2px solid #e4e4e4;
+  margin-bottom: 40px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  height: 164px;
+  width: 164px;
+}
+#about .round-outline:hover {
+  border: 2px solid #fff;
+}
+#about .round-outline .round-photo-anchor {
+  position: relative;
+  display: inline-block;
+}
+#about .round-outline .round-photo-anchor img {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
 #about .round-outline .round-photo-anchor .round-caption-bg {
   background-color: rgba(0, 0, 255, 0.59);
   height: 90%;
@@ -249,16 +272,46 @@ color: #579f6a;
   transition-delay: 0.2s;
   -webkit-transition-delay: 0.2s;
 }
-
-  
-
-#about .round-outline .round-photo-anchor img {
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+#about .round-outline .round-photo-anchor i {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: #fff;
 }
+#about .round-outline .round-photo-anchor:hover .round-caption-bg {
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  transition-delay: 0s;
+  -webkit-transition-delay: 0s;
+}
+#about .round-outline .round-photo-anchor:hover i {
+  top: 45%;
+  opacity: 0.75;
+  transition-delay: 0.2s;
+  -webkit-transition-delay: 0.2s;
+}
+#about .round-outline .round-photo-anchor:hover i:hover {
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  transition-delay: 0s;
+  -webkit-transition-delay: 0s;
+}
+
 
 .round-outline {
   -webkit-border-radius: 50%;
@@ -280,7 +333,7 @@ color: #579f6a;
    
 }
 
-
+/*----------------------My Resume---------------*/
 
 
 
@@ -334,14 +387,6 @@ color: #579f6a;
 
 
 
-
-
-
-
-
-
-
-
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .navbar .navbar-nav {
@@ -373,12 +418,6 @@ color: #579f6a;
   }    
   
 }
-
-
-
-
-
-
 
 
 @media (min-width: 1200px) {
